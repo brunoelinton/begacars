@@ -1,0 +1,24 @@
+.main-nav {
+    height: 70px;
+}
+
+.nav-logo-text, .nav-logo-text:hover {
+    color: #00285F;
+}
+
+.container-main-menu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-menu {
+    display: flex;
+    font-size: 18px;
+    width: 170px;
+    justify-content: space-between;
+    color: #00285F;
+}
+
+.main-menu a:hover, .main-menu a.active {
+    font-weight: bold;
+}
