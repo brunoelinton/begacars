@@ -1,5 +1,5 @@
 .main-nav {
-    height: 70px;
+    min-height: 70px;
 }
 
 .nav-logo-text, .nav-logo-text:hover {
@@ -21,4 +21,10 @@
 
 .main-menu a:hover, .main-menu a.active {
     font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .container-main-menu {
+        display: inline-block;
+    }
 }
