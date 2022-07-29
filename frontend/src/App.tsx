@@ -1,12 +1,12 @@
-import NavBar from './components/NavBar';
+import Home from './pages/Home';
+
 import './assets/styles/custom.scss';
 import './App.css';
 
-function App() {
+const App = () => {
   return(
     <>
-      <NavBar />
-      <h1>Hello BEGA CARS</h1>
+      <Home />
     </>
   );
 }
