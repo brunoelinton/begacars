@@ -1,19 +1,14 @@
-import Home from './pages/Home';
-import NavBar from './components/NavBar';
-
 import './assets/styles/custom.scss';
 import './App.css';
-import CarCard from './components/CarCard';
-import Catalog from './pages/Catalog';
+import Routes from './Routes';
 
 
 const App = () => {
   return(
     <>
-      <NavBar />
-      <Catalog />
+      <Routes />
     </>
   );
-}
+};
 
 export default App;

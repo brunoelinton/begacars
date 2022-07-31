@@ -19,5 +19,6 @@
 #buttom:hover {
     background-color: #F78B00;
     color: #00285F;
+    font-size: 16px;
     transition: all 0.3s ease-out;
 }
