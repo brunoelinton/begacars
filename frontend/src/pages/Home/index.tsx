@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import CarHomeImage from '../../assets/images/car-home.png';
+import CarHomeImage from '../../assets/images/hilux.png';
 import Buttom from '../../components/Buttom';
 
 import './styles.css';
