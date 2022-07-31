@@ -1,0 +1,23 @@
+#buttom {
+  min-width: 174px;
+  height: 40px;
+  background-color: #00285f;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 20px;
+  color: #FFF;
+  cursor: pointer;
+  transition: all 0.3s ease-out
+}
+
+#buttom:hover {
+    background-color: #F78B00;
+    color: #00285F;
+    transition: all 0.3s ease-out;
+}

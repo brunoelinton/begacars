@@ -4,11 +4,13 @@
 
 .nav-logo-text, .nav-logo-text:hover {
     color: #00285F;
+    padding-left: 20px;
 }
 
 .container-main-menu {
     display: flex;
     justify-content: flex-end;
+    padding-right: 20px;
 }
 
 .main-menu {
@@ -19,6 +21,8 @@
     color: #00285F;
 }
 
+
+
 .main-menu a:hover, .main-menu a.active {
     font-weight: bold;
 }
@@ -26,5 +30,25 @@
 @media (max-width: 768px) {
     .container-main-menu {
         display: inline-block;
+        padding-left: 20px;
+        max-height: 1200px;
+    }
+
+    .container-main-menu ul {
+        padding-bottom: 20px;
+    }
+    
+    .container-main-menu ul li {
+        padding-top: 6px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .navbar-container {
+        max-width: 992px;
+    }
+
+    .nav-logo-text, .nav-logo-text:hover, .container-main-menu {
+        padding: 0;
     }
 }

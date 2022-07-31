@@ -16,3 +16,15 @@ a, a:hover {
     text-decoration: none;
     color: unset;
 }
+
+.base-style {
+    width: 100%;
+    height: auto;
+    background: #EDEDED;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}

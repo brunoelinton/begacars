@@ -4,9 +4,9 @@ import 'bootstrap/js/src/collapse.js';
 const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-md bg-primary main-nav">
-      <div className="container-fluid">
+      <div className="container-fluid navbar-container">
         <a href="link" className="nav-logo-text">
-          <h4 className="teste">BEGA CARS</h4>
+          <h4>BEGA CARS</h4>
         </a>
 
         <button
